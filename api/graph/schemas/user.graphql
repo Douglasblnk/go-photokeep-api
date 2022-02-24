@@ -1,0 +1,34 @@
+type User {
+  ID: String!
+  name: String!
+  isActive: Boolean!
+  createdAt: Time!
+  updatedAt: Time!
+}
+
+input CreateUserInput {
+  ID: String!
+  name: String!
+  password: String!
+}
+
+input UpdateUserInput {
+  ID: String
+  name: String
+  password: String
+  isActive: Boolean
+}
+
+type Mutation {
+  createUser(data: CreateUserInput!): User!
+  updateUser(id: ID, data: UpdateUserInput): User!
+}
+
+type Query {
+  getUser(id: ID): User!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}
