@@ -6,6 +6,7 @@ require (
 	github.com/99designs/gqlgen v0.16.0
 	github.com/aws/aws-sdk-go v1.43.5
 	github.com/cosmtrek/air v1.29.0
+	github.com/joho/godotenv v1.4.0
 	github.com/vektah/gqlparser/v2 v2.2.0
 )
 
@@ -18,7 +19,6 @@ require (
 	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/joho/godotenv v1.4.0 // indirect
 	github.com/matryer/moq v0.2.3 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
